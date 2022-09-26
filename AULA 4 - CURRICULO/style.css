@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(143, 255, 246, 0.795);
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family== define a fonte a ser usada*/
+}
+
+#divprincipal { 
+    max-width: 60%; 
+    margin: auto;  
+    background:#fff;
+    padding: 10px;
+   /* defini oquadrado na tela
+   padding ==deixa um espaço no quadrado*/ 
+} 
+#meunome {
+    background-color: rgb(0, 204, 255);
+    text-align: center;
+    height: 45px;
+    padding: 10px;
+    /*
+    height==altura
+    width == largura
+    */
+}
+#foto {
+    border-radius: 50%;
+    display: block;
+    margin: left 1px;
+    height: 165px;
+}
+#dadosp {
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 50px;
+    font-size:18px;
+
+    /*
+    font-size==tamanho da fonte
+    padding-left==espaço para esquerda
+    padding-top== espaço para cima
+    padding-bottom== // p/ baixo
+    padding-right== // p/ direita
+    padding == espaço de ambos lados
+    */
+}
+.flex { 
+        display: flex;
+        /*display: flex == faz as coisas se ajustarem uma ao lado da outra de forma automatica*/
+    }
+.subtitulo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.linha {
+    background-color: rgb(0, 204, 255);
+    width: 85%;
+    height: 3px;
+    margin-top: 25px;
+    border-style: none;
+}
+#linhavertical {
+    width: 3px;
+    background-color: rgb(0, 204, 255);
+    max-height: 100%;
+    border-style: none;
+}
+.divVertical {
+    width: 49%;
+}
+.subtitulo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold
+}
+.bolinhaaberta {
+    margin: auto;
+    height: 10px;
+   
+    width: 10px;
+    border: rgb(0, 204, 255);
+    border-style: solid;
+    border-radius: 150px;
+}
+.bolinhafechada {
+    margin: auto;
+    height: 10px;
+    
+    width: 10px;
+    border: rgb(0, 204, 255);
+    border-style: solid;
+    border-radius: 150px;
+    background-color: rgb(0, 204, 255);
+
+}
+
+/*  
+clear: both; == limpa as linhas flutuantes, 
+ou seja, coloca o proximo item abaixo de tudo.
+o . significa que é uma classe*/
